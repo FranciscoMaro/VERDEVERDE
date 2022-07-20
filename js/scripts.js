@@ -66,3 +66,26 @@ const arregloEquipos = [["Equipo A", "1 a 50"],
 console.log (Nombre);
 console.log (Apellido);
 console.log ( NumeroDeCompetidor)
+
+let premios = {
+  primerPuesto : 10000,
+  segundoPuesto : 5000,
+  tercerPuesto :1000,
+  cuartoPuesto : 500
+};
+
+Object.filter = function(mainObject, filterFunction){
+  return Object.assign(...Object.keys(mainObject)
+        .filter( function(ObjectKey){
+            return filterFunction(mainObject[ObjectKey])
+        } )
+        .map( function (ObjectKey){
+            return {[ObjectKey]: mainObject[ObjectKey]};
+        }) );
+}
+
+console.log("Los premios son ",premios);
+
+let targetSubjects = Object.filter(premios, (premio)=> premio>=5000 );
+
+console.log("El pozo grande es ",targetSubjects);
