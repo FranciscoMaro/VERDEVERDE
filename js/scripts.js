@@ -89,3 +89,29 @@ console.log("Los premios son ",premios);
 let targetSubjects = Object.filter(premios, (premio)=> premio>=5000 );
 
 console.log("El pozo grande es ",targetSubjects);
+
+
+
+const fullAlgaizer = document.querySelector("#fullAlgaizer")
+fullAlgaizer.textContent= "DESDE JS CON TEXTCONTENT"
+fullAlgaizer.innerHTML= " DESDE JS CON INNERHTML"
+fullAlgaizer.classList.add ("bg-dark" , "text-primary")
+
+const sumJs = document.getElementById("sumJs") 
+
+const segundaDescripcion = document.createElement ("p")
+segundaDescripcion.textContent = "SEGUNDA DESCRIPCION JS CON CREATE ELEMENT"
+
+sumJs.appendChild(segundaDescripcion)
+
+const especies = document.getElementById("especies")
+
+const arregloEspecies = ["Suculentas" , "Philodendros" , "Pottus" , "Citricos"]
+
+
+arregloEspecies.forEach (item => {
+  console.log (item)
+  const especie1 = document.createElement ("li")
+  especie1.textContent = item
+  especies.appendChild(especie1)
+})
