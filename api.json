@@ -3,36 +3,36 @@
     "precio": 5000,
     "id": 1,
     "title": "Limonero",
-    "thumbnailUrl": "https://cdn.pixabay.com/photo/2020/09/13/14/22/coffee-5568368_640.jpg"
+    "thumbnailUrl": "https://www.infocampo.com.ar/wp-content/uploads/2020/03/fruticultura-limonero3-infocampo.jpg"
   },
   {
     "precio": 3500,
     "id": 2,
     "title": "Arbol de Pomelo",
-    "thumbnailUrl": "https://picsum.photos/id/10/600"
+    "thumbnailUrl": "https://infonegocios.info/content/images/2022/07/21/113869/Pomelero-arboles-frutales-05-py.jpg"
   },
   {
     "precio": 6000,
     "id": 3,
     "title": "Alamo",
-    "thumbnailUrl": "https://picsum.photos/id/20/600"
+    "thumbnailUrl": "https://www.fundacionaquae.org/wp-content/uploads/2022/01/alamo-populus-e1643191901456-1024x520.jpg"
   },
   {
     "precio": 5000,
     "id": 4,
     "title": "Eucalipto",
-    "thumbnailUrl": "https://picsum.photos/id/30/600"
+    "thumbnailUrl": "https://www.naiz.eus/media/asset_publics/resources/000/782/967/article_main_landscape/eucaliptus.jpg"
   },
   {
     "precio": 6500,
     "id": 5,
     "title": "Taxodium",
-    "thumbnailUrl": "https://picsum.photos/id/40/600"
+    "thumbnailUrl": "https://www.jardineriaon.com/wp-content/uploads/2018/01/Taxodium_distichum_joven-830x623.jpg"
   },
   {
     "precio": 7000,
     "id": 6,
     "title": "Liquidambar",
-    "thumbnailUrl": "https://picsum.photos/id/50/600"
+    "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_745161-MLA48318712426_112021-W.jpg"
   }
 ]
