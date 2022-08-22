@@ -3,36 +3,72 @@
     "precio": 5000,
     "id": 1,
     "title": "Limonero",
-    "thumbnailUrl": "https://autiqueg.sirv.com/Images/LIMONERO.jpg"
+    "thumbnailUrl": "limones.jpg"
   },
   {
     "precio": 3500,
     "id": 2,
     "title": "Arbol de Pomelo",
-    "thumbnailUrl": "https://autiqueg.sirv.com/Images/POMELO.jpg"
+    "thumbnailUrl": "pomelero.jpg"
   },
   {
     "precio": 6000,
     "id": 3,
     "title": "Alamo",
-    "thumbnailUrl": "https://autiqueg.sirv.com/Images/ALAMO.jpg"
+    "thumbnailUrl": "alamo.jpg"
   },
   {
     "precio": 5000,
     "id": 4,
     "title": "Eucalipto",
-    "thumbnailUrl": "https://autiqueg.sirv.com/Images/ECUALIPTO.jpg"
+    "thumbnailUrl": "eucaliptos.jpg"
   },
   {
     "precio": 6500,
     "id": 5,
     "title": "Taxodium",
-    "thumbnailUrl": "https://autiqueg.sirv.com/Images/TAXODIUM.jpg"
+    "thumbnailUrl": "TAXODIO.jpg"
   },
   {
     "precio": 7000,
     "id": 6,
     "title": "Liquidambar",
-    "thumbnailUrl": "https://autiqueg.sirv.com/Images/D_NQ_NP_980277-MLA48540146339_122021-W.jpg"
+    "thumbnailUrl": "liquidambar.jpg"
+  },
+  {
+    "precio": 5000,
+    "id": 1,
+    "title": "Sauce Llorón",
+    "thumbnailUrl": "sauce.jpg"
+  },
+  {
+    "precio": 3500,
+    "id": 2,
+    "title": "Quinoto",
+    "thumbnailUrl": "QUINOTO.jpg"
+  },
+  {
+    "precio": 6000,
+    "id": 3,
+    "title": "Pino Thuja",
+    "thumbnailUrl": "THUJA.jpg"
+  },
+  {
+    "precio": 5000,
+    "id": 4,
+    "title": "Palmera Phoenix",
+    "thumbnailUrl": "phoenix.jpg"
+  },
+  {
+    "precio": 6500,
+    "id": 5,
+    "title": "Pimiento",
+    "thumbnailUrl": "PIMIENTO.jpg"
+  },
+  {
+    "precio": 7000,
+    "id": 6,
+    "title": "Araucaria",
+    "thumbnailUrl": "ARAUCARIA.jpg"
   }
 ]
