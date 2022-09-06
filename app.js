@@ -8,12 +8,12 @@ const fragment = document.createDocumentFragment()
 let carrito = {}
 
 // Eventos
-// El evento DOMContentLoaded es disparado cuando el documento HTML ha sido completamente cargado y parseado
+
 document.addEventListener('DOMContentLoaded', e => { fetchData() });
 cards.addEventListener('click', e => { addCarrito(e) });
 items.addEventListener('click', e => { btnAumentarDisminuir(e) })
 
-// Traer productos
+// Fetch
 const fetchData = async () => {
     const res = await fetch('api.json');
     const data = await res.json()
@@ -21,7 +21,7 @@ const fetchData = async () => {
     pintarCards(data)
 }
 
-// Pintar productos
+// Printeo de Cartas
 const pintarCards = data => {
     data.forEach(item => {
         templateCard.querySelector('h5').textContent = item.title
@@ -73,7 +73,7 @@ const pintarCarrito = () => {
         
         //botones
         templateCarrito.querySelector('.btn-info').dataset.id = producto.id
-        templateCarrito.querySelector('.btn-danger').dataset.id = producto.id
+        templateCarrito.querySelector('.btn-secondary').dataset.id = producto.id
 
         const clone = templateCarrito.cloneNode(true)
         fragment.appendChild(clone)
@@ -112,6 +112,8 @@ const pintarFooter = () => {
         pintarCarrito()
     })
 
+    
+
 }
 
 const btnAumentarDisminuir = e => {
@@ -123,7 +125,7 @@ const btnAumentarDisminuir = e => {
         pintarCarrito()
     }
 
-    if (e.target.classList.contains('btn-danger')) {
+    if (e.target.classList.contains('btn-secondary')) {
         const producto = carrito[e.target.dataset.id]
         producto.cantidad--
         if (producto.cantidad === 0) {

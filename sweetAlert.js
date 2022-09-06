@@ -1,3 +1,6 @@
+
+ 
+ 
  (async () => {
     const {value: planta} = await  Swal.fire({ 
         title: "Bienvenido!",
@@ -78,5 +81,42 @@
  })()
 
 
+
+function mostrar () {
+    
+    Swal.fire({
+        title: 'Gracias por tu compra! Indicanos tu mail para coordinar la entrega',
+        input: 'text',
+        confirmButtonColor: '#41E121',
+        inputAttributes: {
+          autocapitalize: 'off'
+        },
+        showCancelButton: true,
+        confirmButtonText: 'Enviar',
+        showLoaderOnConfirm: true,
+        preConfirm: (login) => {
+          return fetch(`//api.github.com/users/${login}`)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(response.statusText)
+              }
+              return response.json()
+            })
+            .catch(error => {
+              Swal.showValidationMessage(
+                `Request failed: ${error}`
+              )
+            })
+        },
+        allowOutsideClick: () => !Swal.isLoading()
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            title: `${result.value.login}'s avatar`,
+            imageUrl: result.value.avatar_url
+          })
+        }
+      })
+    }
 
 
