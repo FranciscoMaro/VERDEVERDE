@@ -32,6 +32,14 @@
             Liquidambar: 'Liquidambar',
             Taxodium: 'Taxodium',
             Eucalipto: 'Eucalipto',
+            Alamo: 'Alamo',
+            "Sauce Llorón": 'Sauce Llorón',
+            Quinoto: 'Quinoto',
+            "Pino Thuja": 'Pino Thuja',
+            "Palmera Phoenix": 'Palmera Phoenix',
+            Pimiento: 'Pimiento',
+            Araucaria: 'Araucaria',
+            
         },
         
            customClass: {
